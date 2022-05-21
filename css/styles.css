@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
     background-color: var(--bg-color);
 }
@@ -23,7 +23,7 @@ body {
 /*Logo*/
 .logo {
     text-decoration: none;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -72,6 +72,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
     color: var(--bg-color);
 }
@@ -91,7 +92,7 @@ body {
 }
 
 /*Peculiarities section*/
-.peculiarities-section .peculiarities-title {
+.peculiarities-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -99,7 +100,7 @@ body {
     text-transform: uppercase;
     color: var(--secondary-color);
 }
-.peculiarities-section .peculiarities-text {
+.peculiarities-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -121,9 +122,13 @@ body {
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
 }
-.team-section .team-title {
+.team-title {
     font-weight: 500;
     color: var(--secondary-color);
+}
+.team-title,
+.team-text {
+    text-align: center;
 }
 .team-item {
     background-color: var(--bg-color);
