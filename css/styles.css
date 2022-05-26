@@ -37,6 +37,22 @@ p {
     padding-right: 15px;
     margin: 0 auto;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.visually-hidden {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden;
+}
 
 /*========HEADER========*/
 .header,
@@ -47,7 +63,6 @@ p {
 .header {
     border-bottom: 1px solid #ECECEC;
 }
-
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -55,7 +70,7 @@ p {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #3e1c1c;
 }
 .logo-web {
     color: var(--accent-color);
@@ -138,8 +153,7 @@ p {
 
 /*=======PECULIARITIES SECTION=======*/
 .peculiarities-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 0;
 }
 .peculiarities-list {
     display: flex;
@@ -167,9 +181,6 @@ p {
 }
 
 /*=======WHAT WE DO SECTION=======*/
-.occupation-section {
-    padding-bottom: 94px;
-}
 .section-title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -188,8 +199,6 @@ p {
 }
 /*=======OUR TEAM SECTION=======*/
 .team-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -225,8 +234,8 @@ p {
 
 /*=======FOOTER=======*/
 .footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
 }
 .logo-studio {
@@ -255,10 +264,6 @@ p {
 }
 
 /*=======PORTFOLIO=======*/
-.portfolio-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .filter-button-list {
     margin-bottom: 50px;
     display: flex;
@@ -286,8 +291,6 @@ p {
 .filter-button-item:not(:last-child) {
     margin-right: 8px;
 }
-
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -296,9 +299,8 @@ p {
     width: calc((100% - 60px) / 3);
 }
 .portfolio-item-border {
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE ;
+    border-top: 0;
 }
 .portfolio-item:not(:nth-child(3n)) {
     margin-right: 30px;
