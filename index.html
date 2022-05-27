@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container header">
+    <header class="main-header">
+      <div class="container header-container">
         <nav class="header-nav">
           <a class="logo" href="./index.html"
             ><span class="logo-web">Web</span>Studio</a
@@ -52,14 +52,14 @@
     </header>
     <main>
       <!-- hero section-->
-      <section class="hero-section section">
+      <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="hero-button" type="button">Заказать услугу</button>
         </div>
       </section>
       <!-- peculiarities -->
-      <section class="peculiarities-section section">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="peculiarities-list">
@@ -101,7 +101,6 @@
           <ul class="occupation-list">
             <li class="occupation-list-item">
               <img
-                class="occupation-list-img"
                 src="./images/img1.jpg"
                 alt="руки печатают код"
                 width="370"
@@ -110,7 +109,6 @@
             </li>
             <li class="occupation-list-item">
               <img
-                class="occupation-list-img"
                 src="./images/img2.jpg"
                 alt="выбор макета для адаптивного сайта"
                 width="370"
@@ -119,7 +117,6 @@
             </li>
             <li class="occupation-list-item">
               <img
-                class="occupation-list-img"
                 src="./images/img3.jpg"
                 alt="цветовая палитра на планшете"
                 width="370"
@@ -136,47 +133,51 @@
           <ul class="team-list">
             <li class="team-item">
               <img
-                class="team-image"
                 src="./images/person1.jpg"
                 alt="мужчина в очках широко улыбается"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Игорь Демьяненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-item-text-container">
+                <h3 class="team-title">Игорь Демьяненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
-                class="team-image"
                 src="./images/person2.jpg"
                 alt="женщина в очках широко улыбается"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Ольга Репина</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-item-text-container">
+                <h3 class="team-title">Ольга Репина</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
-                class="team-image"
                 src="./images/person3.jpg"
                 alt="мужчина широко улыбается"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Николай Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-item-text-container">
+                <h3 class="team-title">Николай Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
-                class="team-image"
                 src="./images/person4.jpg"
                 alt="мужчина в очках улыбается"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Михаил Ермаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-item-text-container">
+                <h3 class="team-title">Михаил Ермаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
